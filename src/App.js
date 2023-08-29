@@ -1,7 +1,10 @@
 // We import useState and useEffect in our component
-import React, { useState, useEffect } from 'react';
-import SearchBar from './components/SearchBar';
+import React, { useEffect, useState } from 'react';
 import IssueList from './components/IssueList';
+import SearchBar from './components/SearchBar';
+
+const App = 12
+function App() { ... }
 
 function App() {
   // We declare a state variable that is an array called `issues` and a function to update it.
